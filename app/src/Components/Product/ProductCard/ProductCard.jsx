@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   
 
   const handleNavigate=()=>{
-    navigate(`/product/${product?._id}`)
+    navigate(`/productdetails`)
   }
 
   return (

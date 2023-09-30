@@ -7,9 +7,11 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useState } from "react";
 import {mens_kurta } from "../Data/Men/men_kurta"
 import {mensShoesPage1} from "../Data/shoes" 
+import { useNavigate } from 'react-router-dom';
 
 
 const ProductSection = ({data,sectionName}) => {
+    const navigate = useNavigate()
 
     const [activeIndex, setActiveIndex] = useState(0);
     const slidePrev = () => setActiveIndex(activeIndex - 1);

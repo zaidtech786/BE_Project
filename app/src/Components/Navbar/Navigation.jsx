@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {navigation} from "../config/NavigationMenu";
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
@@ -13,10 +13,12 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Avatar, Button, Menu, MenuItem } from "@mui/material";
 import { deepPurple } from "@mui/material/colors";
 import AuthModal from './../Auth/AuthModal';
+import { AppContext } from '../../Context/UseContext';
 
 const Navigation = () => {
     const [open, setOpen] = useState(false);
     const navigate = useNavigate();
+    const {state} = useContext(AppContext)
     const [openAuthModal, setOpenAuthModal] = useState(false);
     const [anchorEl, setAnchorEl] = useState(null);
     const openUserMenu = Boolean(anchorEl);
@@ -26,6 +28,15 @@ const Navigation = () => {
     function classNames(...classes) {
         return classes.filter(Boolean).join(" ");
       }
+
+      useEffect(() => {
+         if(state=="login"){
+          location.pathname="/login"
+         }
+         else{
+          location.pathname="/register"
+         }
+      }, [state]);
 
     const handleUserClick = (event) => {
         setAnchorEl(event.currentTarget);

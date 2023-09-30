@@ -34,19 +34,12 @@ export default function AuthModal({ handleClose, open }) {
       size="large"
     >
       <Box className="rounded-md" sx={style}>
-        {state=="login" ? (
+        {location.pathname === "/login" ? (
           <LoginUserForm />
         ) :
-        state=="register"
-        ?
-        (
-          <RegisterUserForm />
-        )
-      :
-      (
-        <>
-        </>
-      )
+       (
+        <RegisterUserForm/>
+       )
       }
       </Box>
     </Modal>
