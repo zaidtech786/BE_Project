@@ -11,7 +11,7 @@ import {
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import FormControl from "@mui/material/FormControl";
+import FormControl from "@mui/material/FormControl"; 
 import FormLabel from "@mui/material/FormLabel";
 import Pagination from "@mui/material/Pagination";
 
@@ -24,10 +24,17 @@ import { mens_kurta } from "../../Data/Men/men_kurta";
 import { mensShoesPage1 } from '../../Data/shoes';
 import { sareePage1 } from '../../Data/Saree/page1';
 import { dressPage1 } from '../../Data/dress/page1';
-import { gounsPage1 } from '../../Data/Gouns/gouns';
+import { gounsPage1 } from '../../Data/Gouns/gouns.js';
 import { kurtaPage1 } from '../../Data/Kurta/kurta';
 import { Backdrop, CircularProgress } from "@mui/material";
 import BackdropComponent from "../../BackDrop/Backdrop";
+import womensTop from "../../Data/Women/women_top.json"
+import womenJeans from "../../Data/Women/women_jeans.json"
+import womenDress from "../../Data/Women/women_dress.json"
+import mensShirt from "../../Data/Men/men_shirt.json"
+import mensJeans from "../../Data/Men/men_jeans.json"
+import {lehngacholiPage2} from "../../Data/Saree/lenghaCholiPage2.js"
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -35,11 +42,11 @@ function classNames(...classes) {
 
 export default function Product() {
   const {categoryId,sectionId,itemId} = useParams();
-  console.log(categoryId,sectionId,itemId);
+  const [categoryData, setCategoryData] = useState([]);
 
 
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [data,setData] = useState(mens_kurta);
+  // const [data,setData] = useState(mens_kurta);
   const navigate = useNavigate();
   const param = useParams();
   const location = useLocation();
@@ -48,6 +55,46 @@ export default function Product() {
   const handleLoderClose = () => {
     setIsLoaderOpen(false);
   };
+
+  const fetchData = () => {
+    setCategoryData(getDataForCategory(itemId));
+    
+  }
+  useEffect( () => {
+    fetchData()
+    console.log("CategoryData : ",categoryData)
+  },[])
+
+
+  const getDataForCategory = (itemsId) => {
+    console.log(itemsId)
+    switch (itemsId) {
+      case 'mens_kurta':
+        return mens_kurta;
+      case 'women_jeans':
+        return womenJeans;
+      case 'top':
+        return womensTop;
+      case 'lengha_choli':
+        return lehngacholiPage2;
+      case 'sweater':
+        return sweater;
+      case 'gouns':
+        return gounsPage1;
+      case 'saree':
+        return sareePage1;
+      case 'women_dress':
+        return womenDress;
+      case 'shirt':
+        return mensShirt;
+      case 'men_jeans':
+        return mensJeans;
+      
+      default:
+        return null;
+    }
+  };
+
 
   const decodedQueryString = decodeURIComponent(location.search);
   const searchParams = new URLSearchParams(decodedQueryString);
@@ -60,10 +107,14 @@ export default function Product() {
   const stock = searchParams.get("stock");
 
   const handleSortChange = (value) => {
-    const searchParams = new URLSearchParams(location.search);
-    searchParams.set("sort", value);
-    const query = searchParams.toString();
-    navigate({ search: `?${query}` });
+   if(value == 'Price: Low to High'){
+     const sortLowToHigh = [...categoryData].sort((a, b) => a.price - b.price);
+    setCategoryData(sortLowToHigh);
+  }
+  else{
+      const sortHighToLow = [...categoryData].sort((a, b) => b.price - a.price);
+      setCategoryData(sortHighToLow);
+    }
   };
   const handlePaginationChange = (event, value) => {
     const searchParams = new URLSearchParams(location.search);
@@ -73,26 +124,8 @@ export default function Product() {
   };
 
   const handleFilter = (value, sectionId) => {
-    const searchParams = new URLSearchParams(location.search);
-
-    let filterValues = searchParams.getAll(sectionId);
-
-    if (filterValues.length > 0 && filterValues[0].split(",").includes(value)) {
-      filterValues = filterValues[0]
-        .split(",")
-        .filter((item) => item !== value);
-      if (filterValues.length === 0) {
-        searchParams.delete(sectionId);
-      }
-      console.log("includes");
-    } else {
-      filterValues.push(value);
-    }
-
-    if (filterValues.length > 0)
-      searchParams.set(sectionId, filterValues.join(","));
-    const query = searchParams.toString();
-    navigate({ search: `?${query}` });
+     console.log(value,sectionId)
+     let filterData = categoryData.filter( items => {})
   };
 
   const handleRadioFilterChange = (e, sectionId) => {
@@ -253,7 +286,7 @@ export default function Product() {
                         <Menu.Item key={option.name}>
                           {({ active }) => (
                             <p
-                              onClick={() => handleSortChange(option.query)}
+                              onClick={() => handleSortChange(option.name)}
                               className={classNames(
                                 option.current
                                   ? "font-medium text-gray-900"
@@ -296,10 +329,10 @@ export default function Product() {
             </h2>
 
             <div>
-              <h2 className="py-5 font-semibold opacity-60 text-lg">Filters</h2>
+              {/* <h2 className="py-5 font-semibold opacity-60 text-lg">Filters</h2> */}
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
                 {/* Filters */}
-                <form className="hidden lg:block border rounded-md p-5">
+                {/* <form className="hidden lg:block border rounded-md p-5">
                   {filters.map((section) => (
                     <Disclosure
                       // defaultOpen={false}
@@ -414,12 +447,12 @@ export default function Product() {
                       )}
                     </Disclosure>
                   ))}
-                </form>
+                </form> */}
 
                 {/* Product grid */}
-                <div className="lg:col-span-4 w-full ">
+                <div className="lg:col-span-6" style={{width:"100%"}}>
                   <div className="flex flex-wrap justify-center bg-white border py-5 rounded-md ">
-                    {data.map((item) => (
+                    {categoryData?.map((item) => (
                       <ProductCard product={item} />
                     ))}
                   </div>

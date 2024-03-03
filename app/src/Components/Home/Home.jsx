@@ -18,7 +18,7 @@ const Home = () => {
         <Navigation/>
         <HomeCarousel/>
         <ProductSection data={mens_kurta} sectionName = "Mens Kurta"/>
-        <ProductSection data={mensShoesPage1} sectionName = "Mens Shoes"/>
+        {/* <ProductSection data={mensShoesPage1} sectionName = "Mens Shoes"/> */}
         <ProductSection  data={sareePage1} sectionName="Saree"/>
         <ProductSection data={dressPage1} sectionName="Dress"/>
         <ProductSection data={gounsPage1} sectionName="Gouns"/>

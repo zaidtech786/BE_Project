@@ -3,12 +3,12 @@ import "./ProductCard.css";
 import{useLocation, useNavigate} from "react-router-dom";
 
 const ProductCard = ({ product }) => {
-  const { title, brand, imageUrl, price ,discountedPrice,color,discountPersent} = product;
+  const { id,title, brand, imageUrl, price ,discountedPrice,color,discountPersent} = product;
   const navigate= useNavigate();
   
 
   const handleNavigate=()=>{
-    navigate(`/productdetails`)
+    navigate(`/productdetails/${id}/${product.secondLavelCategory}/${product.thirdLavelCategory}`)
   }
 
   return (

@@ -1,5 +1,6 @@
 export const dressPage1 = [
   {
+    "id":1,
     "imageUrl":
       "https://rukminim1.flixcart.com/image/612/612/l0wrafk0/dress/l/2/o/3xl-m2s13003-peach-madame-original-imagchhhwbypcann.jpeg?q=70",
     "brand": "MADAME",
@@ -30,6 +31,7 @@ export const dressPage1 = [
       "Make a statement with this stylish purple A-line dress from ZWERLON. Made with high-quality fabric, this dress is perfect for any occasion."
   },
   {
+    "id":2,
     "imageUrl":
       "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/1/h/g/m-pw333-purshottam-wala-original-imag8zf6ybkmhehy-bb.jpeg?q=70",
     "brand": "Daevish",

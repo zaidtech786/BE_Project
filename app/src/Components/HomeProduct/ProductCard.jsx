@@ -4,10 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const ProductCard = ({product}) => {
   const navigate = useNavigate();
-
   return (
     <div
-      onClick={() => navigate("/productdetails")}
+      onClick={ () => navigate(`/productdetails/${product.id}/${product.secondLavelCategory}/${thirdLavelCategory}`)}
       className="cursor-pointer flex flex-col items-center bg-white rounded-lg shadow-lg overflow-hidden w-[15rem] mx-3"
     >
       <div className="h-[13rem] w-[10rem]">

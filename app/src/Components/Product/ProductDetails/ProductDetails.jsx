@@ -1,16 +1,19 @@
-import { useState } from "react";
+import { useCallback, useContext, useState } from "react";
 import { RadioGroup } from "@headlessui/react";
 import { useNavigate, useParams } from "react-router-dom";
 import ProductReviewCard from "./ProductReviewCard";
 import { Box, Button, Grid, LinearProgress, Rating } from "@mui/material";
 import ProductCard from "../../HomeProduct/ProductCard";
-import { useEffect } from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { findProductById } from "../../../../Redux/Customers/Product/Action";
-// import { addItemToCart } from "../../../../Redux/Customers/Cart/Action";
-// import { getAllReviews } from "../../../../Redux/Customers/Review/Action";
-// import { lengha_page1 } from "../../../../Data/Women/LenghaCholi";
+import { useEffect } from "react";import womensTop from "../../Data/Women/women_top.json"
+import womenJeans from "../../Data/Women/women_jeans.json"
+import womenDress from "../../Data/Women/women_dress.json"
+import {mens_kurta} from "../../Data/Men/men_kurta.js"
+import {kurtaPage1} from "../../Data/Kurta/kurta.js"
+import mensShirt from "../../Data/Men/men_shirt.json"
+import mensJeans from "../../Data/Men/men_jeans.json"
+import {lehngacholiPage2} from "../../Data/Saree/lenghaCholiPage2.js"
 import { gounsPage1 } from './../../Data/Gouns/gouns';
+import { AppContext } from "../../../Context/UseContext.jsx";
 
 const product = {
   name: "Basic Tee 6-Pack",
@@ -68,11 +71,92 @@ function classNames(...classes) {
 export default function ProductDetails() {
   const [selectedSize, setSelectedSize] = useState();
   const [activeImage, setActiveImage] = useState(product.images[0].src);
+  const [categoryData, setCategoryData] = useState([]);
+  const [data,setData] = useState()
+  const {dispatch,cart} = useContext(AppContext)
+  const [inCart, setInCart] = useState(false);
+  console.log("States : ",cart)
+
   const navigate = useNavigate();
-  const { productId } = useParams();
+  const { id, name,itemName } = useParams();
+  // console.log("imageUrl",imageUrl)
   const handleSetActiveImage = (image) => {
     setActiveImage(image.src);
   };
+
+  useEffect(() => {
+    let exist = cart?.find((item) => {
+      return item.id == id;
+    });
+    if (exist) {
+       setInCart(true)
+      console.log("exist : ",exist)
+    }
+     else {
+       setInCart(false);
+    }
+  }, []);
+  
+  const fetchData = () => {
+    setCategoryData(getDataForCategory(itemName));
+    
+  }
+ 
+  const getDataForCategory = (itemsId) => {
+    switch (itemsId) {
+      case 'mens_kurta':
+        return mens_kurta;
+      case 'women_jeans':
+        return womenJeans;
+      case 'top':
+        return womensTop;
+      case 'lengha_choli':
+        return lehngacholiPage2;
+      case 'sweater':
+        return sweater;
+      case 'gouns':
+        return gounsPage1;
+      case 'saree':
+        return sareePage1;
+      case 'women_dress':
+        return womenDress;
+      case 'shirt':
+        return mensShirt;
+      case 'men_jeans':
+        return mensJeans;
+      case 'kurti':
+        return kurtaPage1;
+      
+      default:
+        return null;
+    }
+  };
+
+  const filterData = () => {
+     const filterCloth = categoryData.filter( data =>  data.id == id )
+  
+     return filterCloth;
+  }
+
+  useEffect( () => {
+    fetchData()
+    // console.log("CategoryData : ",categoryData)
+  },[getDataForCategory])
+
+  useEffect(() => {
+    const filteredData = filterData();
+    if (filteredData && filteredData.length > 0) {
+      // console.log("filterData:", filteredData);
+      setData(filteredData);
+    }
+  }, [categoryData]);
+
+
+    // console.log("Data: ", data && data.length > 0 ? data[0] : "No data available");
+
+ 
+
+
   return (
     <div className="bg-white lg:px-20">
       <div className="pt-6">
@@ -121,7 +205,7 @@ export default function ProductDetails() {
           <div className="flex flex-col items-center ">
             <div className=" overflow-hidden rounded-lg max-w-[30rem] max-h-[35rem]">
               <img
-                src={activeImage}
+                src={data && data[0]?.imageUrl}
                 alt={product.images[0].alt}
                 className="h-full w-full object-cover object-center"
               />
@@ -134,7 +218,7 @@ export default function ProductDetails() {
                 >
                   <img
                     src={image.src}
-                    alt={product.images[1].alt}
+                    alt={product.images[0].alt}
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -146,10 +230,10 @@ export default function ProductDetails() {
           <div className="lg:col-span-1 mx-auto max-w-2xl px-4 pb-16 sm:px-6  lg:max-w-7xl  lg:px-8 lg:pb-24">
             <div className="lg:col-span-2">
               <h1 className="text-lg lg:text-xl font-semibold tracking-tight text-gray-900  ">
-                 Nike----------*****
+                 {data && data[0]?.title}
               </h1>
               <h1 className="text-lg lg:text-xl tracking-tight text-gray-900 opacity-60 pt-1">
-                Tshirt
+                {data && data[0]?.brand}
               </h1>
             </div>
 
@@ -158,13 +242,13 @@ export default function ProductDetails() {
               <h2 className="sr-only">Product information</h2>
               <div className="flex space-x-5 items-center text-lg lg:text-xl tracking-tight text-gray-900 mt-6">
                 <p className="font-semibold">
-                  ₹250
+                  {data && String(data[0]?.discountedPrice).includes('₹')? "" : "₹" || String(data[0]?.selling_price).includes('₹')? "" : "₹" } {data && data[0]?.discountedPrice || data && data[0]?.selling_price}
                 </p>
                 <p className="opacity-50 line-through">
-                  ₹500
+                ₹{data && data[0]?.price}
                 </p>
                 <p className="text-green-600 font-semibold">
-                 50% Off
+                {data && data[0]?.discountPersent ||data && data[0]?.disscount}%
                 </p>
               </div>
 
@@ -262,14 +346,33 @@ export default function ProductDetails() {
                     </div>
                   </RadioGroup>
                 </div>
-
+              
+              {
+                // cart && cart.includes(data && data.length > 0 && data[0].id) 
+                inCart
+                ?
                 <Button
                   variant="contained"
-                  type="submit"
+                 
                   sx={{ padding: ".8rem 2rem", marginTop: "2rem" }}
+                  // onClick={() => {dispatch({ type: 'ADD_TO_CART', payload: data[0]}),setInCart(true)}}
+                >
+                  Already in a cart
+                </Button>
+                :
+                <Button
+                  variant="contained"
+                 
+                  sx={{ padding: ".8rem 2rem", marginTop: "2rem" }}
+                  onClick={() => {dispatch({ type: 'ADD_TO_CART', payload: data[0]}),setInCart(true)}}
                 >
                   Add To Cart
                 </Button>
+                
+
+                
+              }
+                 {/* { cart && cart.includes(data && data.length > 0 && data[0].id) ?  "Already in a cart" : "Add To Cart"} */}
               </form>
             </div>
 
@@ -280,7 +383,7 @@ export default function ProductDetails() {
 
                 <div className="space-y-6">
                   <p className="text-base text-gray-900">
-                    customersProduct.product?.description
+                  {data && data[0]?.description}
                   </p>
                 </div>
               </div>
@@ -476,7 +579,7 @@ export default function ProductDetails() {
         <section className=" pt-10">
           <h1 className="py-5 text-xl font-bold">Similer Products</h1>
           <div className="flex flex-wrap space-y-5">
-            {gounsPage1.map((item) => (
+            {categoryData.map((item) => (
               <ProductCard key={item} product={item} />
             ))}
           </div>

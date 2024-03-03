@@ -8,6 +8,8 @@ export const lehngacholiPage2=[
     selling_price: "₹2,069",
     price: "₹4,599",
     disscount: "55% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -19,6 +21,8 @@ export const lehngacholiPage2=[
     selling_price: "₹4,016",
     price: "₹8,995",
     disscount: "55% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -30,6 +34,8 @@ export const lehngacholiPage2=[
     selling_price: "₹386",
     price: "₹1,799",
     disscount: "78% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -41,6 +47,8 @@ export const lehngacholiPage2=[
     selling_price: "₹615",
     price: "₹3,499",
     disscount: "82% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -52,6 +60,8 @@ export const lehngacholiPage2=[
     selling_price: "₹439",
     price: "₹1,999",
     disscount: "78% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -63,6 +73,8 @@ export const lehngacholiPage2=[
     selling_price: "₹499",
     price: "₹3,099",
     disscount: "83% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -74,6 +86,8 @@ export const lehngacholiPage2=[
     selling_price: "₹484",
     price: "₹2,499",
     disscount: "80% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -85,6 +99,8 @@ export const lehngacholiPage2=[
     selling_price: "₹854",
     price: "₹2,099",
     disscount: "59% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -96,6 +112,8 @@ export const lehngacholiPage2=[
     selling_price: "₹479",
     price: "₹1,499",
     disscount: "68% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -107,6 +125,8 @@ export const lehngacholiPage2=[
     selling_price: "₹424",
     price: "₹1,999",
     disscount: "78% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -118,6 +138,8 @@ export const lehngacholiPage2=[
     selling_price: "₹2,249",
     price: "₹4,999",
     disscount: "55% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -129,6 +151,8 @@ export const lehngacholiPage2=[
     selling_price: "₹1,934",
     price: "₹4,299",
     disscount: "55% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -140,6 +164,8 @@ export const lehngacholiPage2=[
     selling_price: "₹784",
     price: "₹1,999",
     disscount: "60% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -151,6 +177,8 @@ export const lehngacholiPage2=[
     selling_price: "₹599",
     price: "₹3,999",
     disscount: "85% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -162,6 +190,8 @@ export const lehngacholiPage2=[
     selling_price: "₹614",
     price: "₹3,499",
     disscount: "82% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -173,6 +203,8 @@ export const lehngacholiPage2=[
     selling_price: "₹409",
     price: "₹1,999",
     disscount: "79% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -184,6 +216,8 @@ export const lehngacholiPage2=[
     selling_price: "₹1,919",
     price: "₹4,799",
     disscount: "60% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -195,6 +229,8 @@ export const lehngacholiPage2=[
     selling_price: "₹2,114",
     price: "₹4,699",
     disscount: "55% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -206,6 +242,8 @@ export const lehngacholiPage2=[
     selling_price: "₹792",
     price: "₹3,999",
     disscount: "80% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -217,6 +255,8 @@ export const lehngacholiPage2=[
     selling_price: "₹292",
     price: "₹599",
     disscount: "51% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -228,6 +268,8 @@ export const lehngacholiPage2=[
     selling_price: "₹1,679",
     price: "₹4,199",
     disscount: "60% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -239,6 +281,8 @@ export const lehngacholiPage2=[
     selling_price: "₹4,800",
     price: "₹7,500",
     disscount: "36% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -250,6 +294,8 @@ export const lehngacholiPage2=[
     selling_price: "₹599",
     price: "₹2,999",
     disscount: "80% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -261,6 +307,8 @@ export const lehngacholiPage2=[
     selling_price: "₹357",
     price: "₹1,999",
     disscount: "82% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -272,6 +320,8 @@ export const lehngacholiPage2=[
     selling_price: "₹694",
     price: "₹5,999",
     disscount: "88% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -283,6 +333,8 @@ export const lehngacholiPage2=[
     selling_price: "₹794",
     price: "₹3,999",
     disscount: "80% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -294,6 +346,8 @@ export const lehngacholiPage2=[
     selling_price: "₹8,995",
     price: "",
     disscount: "",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -305,6 +359,8 @@ export const lehngacholiPage2=[
     selling_price: "₹2,239",
     price: "₹3,900",
     disscount: "42% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -316,6 +372,8 @@ export const lehngacholiPage2=[
     selling_price: "₹952",
     price: "₹5,555",
     disscount: "82% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -327,6 +385,8 @@ export const lehngacholiPage2=[
     selling_price: "₹799",
     price: "₹3,399",
     disscount: "76% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -338,6 +398,8 @@ export const lehngacholiPage2=[
     selling_price: "₹999",
     price: "₹1,900",
     disscount: "47% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -349,6 +411,8 @@ export const lehngacholiPage2=[
     selling_price: "₹4,197",
     price: "₹5,995",
     disscount: "29% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -360,6 +424,8 @@ export const lehngacholiPage2=[
     selling_price: "₹339",
     price: "₹2,499",
     disscount: "86% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -371,6 +437,8 @@ export const lehngacholiPage2=[
     selling_price: "₹349",
     price: "₹1,999",
     disscount: "82% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -382,6 +450,8 @@ export const lehngacholiPage2=[
     selling_price: "₹999",
     price: "₹2,999",
     disscount: "66% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -393,6 +463,8 @@ export const lehngacholiPage2=[
     selling_price: "₹649",
     price: "₹2,699",
     disscount: "75% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -404,6 +476,8 @@ export const lehngacholiPage2=[
     selling_price: "₹1,679",
     price: "₹4,199",
     disscount: "60% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -415,6 +489,8 @@ export const lehngacholiPage2=[
     selling_price: "₹460",
     price: "₹3,099",
     disscount: "85% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
   {
@@ -437,6 +513,8 @@ export const lehngacholiPage2=[
     selling_price: "₹711",
     price: "₹2,499",
     disscount: "71% off",
+    "ageFrom":19,
+    "ageTo":40,
     size: "",
   },
 ];
