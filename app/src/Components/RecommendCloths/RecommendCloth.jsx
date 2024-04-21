@@ -61,7 +61,7 @@ const RecommendCloth = () => {
     if(gender == "male"){
       let maleData = [...mens_kurta, ...mensShirt];
       let filterData = maleData.filter(item => {
-        if ((item.gender == gender) && (item.ageFrom > age && item.ageTo > age)) {
+        if ((item.gender == gender) && (age >= item.ageFrom && age <= item.ageTo)) {   // 20 > 16    20 < 20 
           return item;
         }
       });
@@ -73,7 +73,7 @@ const RecommendCloth = () => {
       console.log("filterData : ", filterData);
     }
     else{
-        let femaleData1 = [...kurtaPage1,...dressPage1, ...gounsPage1,...womenDress,...sareePage1,...womensTop];
+        let femaleData1 = [...kurtaPage1,...dressPage1, ...gounsPage1,...womenDress,...sareePage1,...womensTop,];
         console.log(femaleData1)
       let filterData = femaleData1.filter(item => {
         if ((item.ageFrom < age && item.ageTo > age)) {
@@ -87,6 +87,18 @@ const RecommendCloth = () => {
       setData(filterData)
       console.log("Female Data : ", filterData)
     }
+}
+
+const handleSortChange = (name) => {
+  console.log(name)
+  if(name =="Price: Low to High"){
+    const sortedProducts = data.discountedPrice.sort((a, b) => a.price - b.price);
+    setData(sortedProducts);
+  }
+  else{
+    const sortedProducts = data.discountedPrice.sort((a, b) => b.price - a.price);
+    setData(sortedProducts);
+  }
 }
 
 useEffect(() => {

@@ -12,6 +12,8 @@ import ImageRecog from './Components/Recognition/ImageRecog';
 import RecommendCloth from './Components/RecommendCloths/RecommendCloth';
 import Cart from './Components/Cart/Cart';
 import Checkout from "./Components/CheckOut/Checkout.jsx"
+import DetectSize from "./Components/Recognition/DetectSize.jsx"
+import Temp from './Components/Recognition/Temp.jsx';
 
 
 function App() {
@@ -26,9 +28,11 @@ function App() {
       <Route path="/register" element={<Register/>}></Route>
       <Route path="/authmodel" element={<AuthModal/>}></Route>
       <Route path="/imagerecog" element={<ImageRecog/>}></Route>
+      <Route path="/detectsize" element={<DetectSize/>}></Route>
       <Route path="/cart" element={<Cart/>}></Route>
       <Route path="/recommand/:gender/:age" element={<RecommendCloth/>}></Route>
         <Route path="/checkout" element={<Checkout/>}></Route>
+        <Route path="/temp" element={<Temp/>}></Route>
     </Routes>
   
     </>

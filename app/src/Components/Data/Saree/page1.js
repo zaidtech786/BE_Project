@@ -9,7 +9,7 @@ export const sareePage1=[
         "price": "₹3,999",
         "disscount": "80% off",
         "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
     },
     {
         "id":2,
@@ -20,8 +20,7 @@ export const sareePage1=[
         "selling_price": "₹996",
         "price": "₹3,500",
          "ageFrom":30,
-        "ageTo":60,
-       
+        "ageTo":33,
         "disscount": "71% off"
     },
     {
@@ -33,7 +32,7 @@ export const sareePage1=[
         "selling_price": "₹374",
         "price": "₹1,798",
          "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
        
         "disscount": "79% off"
     },
@@ -46,7 +45,7 @@ export const sareePage1=[
         "selling_price": "₹329",
         "price": "₹2,299",
          "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
         "disscount": "85% off"
     },
     {
@@ -56,7 +55,7 @@ export const sareePage1=[
         "title2": "Embellished Bandhani Georgette Saree",
         "color": "Yellow",
          "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
         "selling_price": "₹390",
         "price": "₹942",
         "disscount": "58% off"
@@ -68,7 +67,7 @@ export const sareePage1=[
         "title2": "Self Design Banarasi Cotton Blend, Pure Silk Saree",
         "color": "Maroon",
          "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
         "selling_price": "₹497",
         "price": "₹2,899",
         "disscount": "82% off"
@@ -82,7 +81,7 @@ export const sareePage1=[
         "selling_price": "₹479",
         "price": "₹3,999",
          "ageFrom":30,
-        "ageTo":60,
+        "ageTo":33,
         "disscount": "88% off"
     },
     {
@@ -92,8 +91,8 @@ export const sareePage1=[
         "title2": "Checkered Bollywood Cotton Silk Saree",
         "color": "Pack of 2, Multicolor",
         "selling_price": "₹634",
-         "ageFrom":30,
-        "ageTo":60,
+         "ageFrom":32,
+        "ageTo":35,
         "price": "₹2,199",
         "disscount": "71% off"
     },
@@ -104,8 +103,8 @@ export const sareePage1=[
         "title2": "Embroidered Bollywood Georgette Saree",
         "color": "Blue",
         "selling_price": "₹295",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹2,007",
         "disscount": "85% off"
     },
@@ -116,8 +115,8 @@ export const sareePage1=[
         "title2": "Embroidered, Woven Daily Wear Georgette Saree",
         "color": "Grey",
         "selling_price": "₹296",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹1,999",
         "disscount": "85% off"
     },
@@ -128,8 +127,8 @@ export const sareePage1=[
         "title2": "Embroidered Bollywood Georgette Saree",
         "color": "Magenta",
         "selling_price": "₹479",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹2,599",
         "disscount": "81% off"
     },
@@ -140,8 +139,8 @@ export const sareePage1=[
         "title2": "Woven Bollywood Organza Saree",
         "color": "Multicolor",
         "selling_price": "₹1,329",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹4,997",
         "disscount": "73% off"
     },
@@ -153,8 +152,8 @@ export const sareePage1=[
         "color": "Black",
         "selling_price": "₹289",
         "price": "₹2,999",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "disscount": "90% off"
     },
     {
@@ -164,8 +163,8 @@ export const sareePage1=[
         "title2": "Embroidered, Self Design, Applique Banarasi Art Silk,\n                          N...",
         "color": "Black",
         "selling_price": "₹649",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹2,499",
         "disscount": "74% off"
     },
@@ -178,8 +177,8 @@ export const sareePage1=[
         "selling_price": "₹373",
          "ageFrom":30,
         "ageTo":60,
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":32,
+        "ageTo":35,
         "price": "₹1,699",
         "disscount": "78% off"
     },
@@ -190,8 +189,8 @@ export const sareePage1=[
         "title2": "Printed, Geometric Print, Embellished Daily Wear\n                          Lycra ...",
         "color": "Black",
         "selling_price": "₹273",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
          "ageFrom":30,
         "ageTo":60,
         "price": "₹1,233",
@@ -204,8 +203,8 @@ export const sareePage1=[
         "title2": "Self Design Bollywood Georgette, Cotton Silk Saree",
         "color": "Black",
         "selling_price": "₹699",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹2,999",
         "disscount": "76% off"
     },
@@ -217,8 +216,8 @@ export const sareePage1=[
         "color": "Black",
         "selling_price": "₹1,299",
         "price": "₹1,999",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "disscount": "35% off"
     },
     {
@@ -228,8 +227,8 @@ export const sareePage1=[
         "title2": "Woven Banarasi Silk Blend Saree",
         "color": "Red",
         "selling_price": "₹499",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹2,999",
         "disscount": "83% off"
     },
@@ -240,8 +239,8 @@ export const sareePage1=[
         "title2": "Embroidered Banarasi Art Silk Saree",
         "color": "Yellow",
         "selling_price": "₹478",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹999",
         "disscount": "52% off"
     },
@@ -252,8 +251,8 @@ export const sareePage1=[
         "title2": "Printed Bollywood Art Silk Saree",
         "color": "Pink, Beige",
         "selling_price": "₹349",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹1,663",
         "disscount": "79% off"
     },
@@ -264,8 +263,8 @@ export const sareePage1=[
         "title2": "Self Design, Embroidered Bollywood Net Saree",
         "color": "White",
         "selling_price": "₹449",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹1,999",
         "disscount": "77% off"
     },
@@ -276,8 +275,8 @@ export const sareePage1=[
         "title2": "Embroidered Banarasi Art Silk Saree",
         "color": "Maroon",
         "selling_price": "₹492",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":34,
+        "ageTo":37,
         "price": "₹999",
         "disscount": "50% off"
     },
@@ -288,8 +287,8 @@ export const sareePage1=[
         "title2": "Printed, Floral Print Daily Wear Chiffon Saree",
         "color": "Yellow",
         "selling_price": "₹449",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":36,
+        "ageTo":39,
         "price": "₹1,999",
         "disscount": "77% off"
     },
@@ -298,8 +297,8 @@ export const sareePage1=[
        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/k7xnukw0/sari/e/8/d/free-khusi-krishna-r-fashion-unstitched-original-imafq22gfteg5gzh.jpeg?q=70",
         "title": "Krishna R fashion",
         "title2": "Woven Bollywood Jacquard Saree",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":36,
+        "ageTo":39,
         "color": "Pink, Grey",
         "selling_price": "₹469",
         "price": "₹3,999",
@@ -310,8 +309,8 @@ export const sareePage1=[
        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kshtxu80/shopsy-sari/h/i/r/free-1077-red-dhnik-creation-unstitched-original-imag6fnkhgmmqzkx.jpeg?q=70",
         "title": "Rarebeauty",
         "title2": "Embroidered Bollywood Georgette Saree",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":36,
+        "ageTo":39,
         "color": "Dark Blue",
         "selling_price": "₹349",
         "price": "₹1,999",
@@ -324,8 +323,8 @@ export const sareePage1=[
         "title2": "Self Design Banarasi Cotton Blend, Jacquard Saree",
         "color": "Cream",
         "selling_price": "₹489",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":36,
+        "ageTo":39,
         "price": "₹2,499",
         "disscount": "80% off"
     },
@@ -335,6 +334,8 @@ export const sareePage1=[
         "title": "Adirotz",
         "title2": "Embroidered Bollywood Georgette Saree",
         "color": "Blue",
+        "ageFrom":36,
+        "ageTo":39,
         "selling_price": "₹479",
         "price": "₹2,599",
         "disscount": "81% off"
@@ -344,8 +345,8 @@ export const sareePage1=[
        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/b/b/w/free-braso2-o-combo-lorofy-unstitched-original-imagkymbfmjbfeqj.jpeg?q=70",
         "title": "LOROFY",
         "title2": "Self Design Bollywood Net Saree",
-         "ageFrom":30,
-        "ageTo":60,
+        "ageFrom":36,
+        "ageTo":39,
         "color": "Red",
         "selling_price": "₹294",
         "price": "₹1,599",
@@ -358,7 +359,7 @@ export const sareePage1=[
         "title2": "Printed, Geometric Print, Embellished Bhagalpuri Silk\n                          B...",
         "color": "Green, Pink",
         "selling_price": "₹289",
-         "ageFrom":30,
+         "ageFrom":39,
         "ageTo":60,
         "price": "₹1,563",
         "disscount": "81% off"
@@ -371,7 +372,7 @@ export const sareePage1=[
         "color": "Light Green",
         "selling_price": "₹471",
         "price": "₹2,499",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "disscount": "81% off"
     },
@@ -382,7 +383,7 @@ export const sareePage1=[
         "title2": "Woven Banarasi Pure Silk, Satin Saree",
         "color": "Maroon",
         "selling_price": "₹379",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹3,999",
         "disscount": "90% off"
@@ -394,7 +395,7 @@ export const sareePage1=[
         "title2": "Embellished Bollywood Georgette, Art Silk Saree",
         "color": "Light Blue, Blue",
         "selling_price": "₹387",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹3,999",
         "disscount": "90% off"
@@ -406,7 +407,7 @@ export const sareePage1=[
         "title2": "Floral Print Bollywood Lycra Blend Saree",
         "color": "Maroon, Black",
         "selling_price": "₹249",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹2,497",
         "disscount": "90% off"
@@ -418,7 +419,7 @@ export const sareePage1=[
         "title2": "Embroidered, Woven Daily Wear Georgette Saree",
         "color": "Yellow",
         "selling_price": "₹296",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹1,999",
         "disscount": "85% off"
@@ -431,7 +432,7 @@ export const sareePage1=[
         "color": "Red",
         "selling_price": "₹441",
         "price": "₹5,999",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "disscount": "92% off"
     },
@@ -442,7 +443,7 @@ export const sareePage1=[
         "title2": "Printed Bollywood Art Silk Saree",
         "color": "Red, Beige",
         "selling_price": "₹349",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹1,663",
         "disscount": "79% off"
@@ -454,7 +455,7 @@ export const sareePage1=[
         "title2": "Self Design Banarasi Jacquard Saree",
         "color": "Pink",
         "selling_price": "₹499",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "price": "₹2,999",
         "disscount": "83% off"
@@ -466,6 +467,8 @@ export const sareePage1=[
         "title2": "Printed, Striped Daily Wear Georgette Saree",
         "color": "White, Black",
         "selling_price": "₹299",
+        "ageFrom":39,
+        "ageTo":60,
         "price": "₹1,299",
         "disscount": "76% off"
     },
@@ -477,7 +480,7 @@ export const sareePage1=[
         "color": "Red",
         "selling_price": "₹299",
         "price": "₹1,299",
-         "ageFrom":30,
+        "ageFrom":39,
         "ageTo":60,
         "disscount": "76% off"
     }

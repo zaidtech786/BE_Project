@@ -9,7 +9,70 @@ export const mens_kurta=[
         "price": 1499,
         "discountPersent": 66,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22,
+        "gender":"male",
+        "size": [
+            {
+              "name": "S",
+              "quantity": 20
+            },
+            {
+              "name": "M",
+              "quantity": 30
+            },
+            {
+              "name": "L",
+              "quantity": 50
+            }],
+          "quantity": 100,
+          "topLavelCategory": "Men",
+          "secondLavelCategory": "Clothing",
+          "thirdLavelCategory": "mens_kurta",
+          "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+    },
+    {
+      id:"1",
+        "imageUrl": "https://m.media-amazon.com/images/I/61QVAU2K1lL._AC_UL480_FMwebp_QL65_.jpg",
+        "brand": "Majestic Man",
+        "title": "Men Printed Pure Cotton Straight Kurta",
+        "color": "Green",
+        "discountedPrice": 499,
+        "price": 1499,
+        "discountPersent": 66,
+        "ageFrom" : 18,
+        "ageTo":22,
+        "gender":"male",
+        "size": [
+            {
+              "name": "S",
+              "quantity": 20
+            },
+            {
+              "name": "M",
+              "quantity": 30
+            },
+            {
+              "name": "L",
+              "quantity": 50
+            }],
+          "quantity": 100,
+          "topLavelCategory": "Men",
+          "secondLavelCategory": "Clothing",
+          "thirdLavelCategory": "mens_kurta",
+          "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+    },
+    {
+      id:"1",
+        "imageUrl": "https://m.media-amazon.com/images/I/61qZz95qoXL._AC_UL480_FMwebp_QL65_.jpg",
+        "brand": "Cool Man",
+        "title": "Men Printed Pure Cotton Straight Kurta",
+        "color": "Green",
+        "discountedPrice": 499,
+        "price": 1499,
+        "discountPersent": 66,
+        "ageFrom" : 18,
+        "ageTo":22,
+        "gender":"male",
         "size": [
             {
               "name": "S",
@@ -31,7 +94,7 @@ export const mens_kurta=[
     },
     {
       id:"2",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/l/f/r/xl-k-spl668-yellow-sg-leman-original-imagznqcrahgq9rf.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/816nRJxLWgL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "SG LEMAN",
         "title": "Men Embroidered Jacquard Straight Kurta",
         "color": "Yellow",
@@ -39,7 +102,7 @@ export const mens_kurta=[
         "price": 2499,
         "discountPersent": 68,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -62,7 +125,7 @@ export const mens_kurta=[
     },
     {
       id:"3",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/g/6/k/m-sksh-dt1105-pcbl-fubar-original-imafux247zhqym2z-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/71AEwEupFuL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Blue",
@@ -70,7 +133,7 @@ export const mens_kurta=[
         "price": 1499,
         "discountPersent": 73,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -93,7 +156,7 @@ export const mens_kurta=[
     },
     {
       id:"4",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/i/v/x/xxl-br-ad-kt-105-adwyn-peter-original-imagj4zyd2q7t6cg.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61n8G12sUML._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "ALY JOHN",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "White",
@@ -101,7 +164,7 @@ export const mens_kurta=[
         "price": 1999,
         "discountPersent": 76,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -124,7 +187,7 @@ export const mens_kurta=[
     },
     {
       id:"5",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/j/a/r/l-poch521835-peter-england-original-imag7jg47g7cxhg3-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/51gORFALQGL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "PETER ENGLAND",
         "title": "Men Woven Design Pure Cotton Straight Kurta",
         "color": "Grey",
@@ -132,7 +195,7 @@ export const mens_kurta=[
         "price": 1049,
         "discountPersent": 50,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -155,7 +218,7 @@ export const mens_kurta=[
     },
     {
       id:"6",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/y/c/x/xl-kast107hp-majestic-man-original-imafw49u5uty4agx-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/71xamREF5TL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Majestic Man",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
@@ -163,7 +226,7 @@ export const mens_kurta=[
         "price": 1499,
         "discountPersent": 66,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -186,7 +249,7 @@ export const mens_kurta=[
     },
     {
       id:"7",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kpodocw0/t-shirt/x/o/4/xl-wr-64-wrodss-original-imag3upwgq9n9fbv.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/71jotnk9z1L._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "WRODSS",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Black",
@@ -194,7 +257,7 @@ export const mens_kurta=[
         "price": 999,
         "discountPersent": 72,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -217,7 +280,7 @@ export const mens_kurta=[
     },
     {
       id:"8",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/kurta/i/g/u/s-mtml0039-341-manthan-original-imagfrz3gwgdtczm.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/71H3ToQHkTL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Manthan",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Blue",
@@ -225,7 +288,7 @@ export const mens_kurta=[
         "price": 1049,
         "discountPersent": 27,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -248,7 +311,7 @@ export const mens_kurta=[
     },
     {
       id:"9",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/m/e/e/s-kurta-rahul-look-original-imaga2g6qmhbywdf-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61Qrj5J9F-L._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "RAHUL LOOK",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Green",
@@ -256,7 +319,7 @@ export const mens_kurta=[
         "price": 1599,
         "discountPersent": 68,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -279,7 +342,7 @@ export const mens_kurta=[
     },
     {
       id:"10",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/u/v/m/l-grey-106-yellow-freluro-original-imagc26vdpwxgztu-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61vi6h6kGYL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "FRELURO",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Yellow",
@@ -287,7 +350,7 @@ export const mens_kurta=[
         "price": 999,        
         "discountPersent": 57,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -310,7 +373,7 @@ export const mens_kurta=[
     },
     {
       id:"11",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/jsj90280/kurta/j/z/g/l-mtmkos0004-326-manthan-original-imafe35wha5ry36p.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61InxVbp+dL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Manthan",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Light Blue",
@@ -318,7 +381,7 @@ export const mens_kurta=[
         "price": 909,        
         "discountPersent": 27,
         "ageFrom" : 18, "gender":"male",
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -341,7 +404,7 @@ export const mens_kurta=[
     },
     {
       id:"12",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/g/f/f/xl-grey-sws4503-allan-peter-original-imag6xxgvvh59gh5-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61f5Gdl9+bL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "allan peter",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Green",
@@ -349,7 +412,7 @@ export const mens_kurta=[
         "price": 1749,
         "discountPersent": 74,
         "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageTo":22, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -372,15 +435,15 @@ export const mens_kurta=[
     },
     {
       id:"13",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/u/g/z/xl-8button-kurta-elepants-original-imagk57kfg2bwvhd.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/81boXIR+s3L._SY741_.jpg",
         "brand": "COMBRAIDED",
-        "title": "Men Solid Cotton Blend Straight Kurta",
+        "title": "Men Solid Cotton Blend Straight shirt",
         "color": "Dark Blue",
         "discountedPrice": 449,
         "price": 1499,
         "discountPersent": 70,
-        "ageFrom" : 18,
-        "ageTo":30, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -403,15 +466,46 @@ export const mens_kurta=[
     },
     {
       id:"14",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/7/b/q/xl-short-button-yellow-101-deal4mens-original-imagf6nzhwufyygg.jpeg?q=70",
-        "brand": "FOLGEN",
+        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/u/g/z/xl-8button-kurta-elepants-original-imagk57kfg2bwvhd.jpeg?q=70",
+        "brand": "COMBRAIDED",
         "title": "Men Solid Cotton Blend Straight Kurta",
+        "color": "Dark Blue",
+        "discountedPrice": 449,
+        "price": 1499,
+        "discountPersent": 70,
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
+        "size": [
+            {
+              "name": "S",
+              "quantity": 20
+            },
+            {
+              "name": "M",
+              "quantity": 30
+            },
+            {
+              "name": "L",
+              "quantity": 50
+            }
+          ],
+          "quantity": 100,
+          "topLavelCategory": "Men",
+          "secondLavelCategory": "Clothing",
+          "thirdLavelCategory": "mens_kurta",
+          "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+    },
+    {
+      id:"14",
+        "imageUrl": "https://m.media-amazon.com/images/I/81gwJt2K+gL._AC_UL480_FMwebp_QL65_.jpg",
+        "brand": "FOLGEN",
+        "title": "Men Solid Cotton Blend Straight shirt",
         "color": "Yellow",
         "discountedPrice": 385,
         "price": 1299,
         "discountPersent": 70,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -441,8 +535,8 @@ export const mens_kurta=[
         "discountedPrice": 395,
         "price": 1495,
         "discountPersent": 73,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -472,8 +566,8 @@ export const mens_kurta=[
         "discountedPrice": 399,
         "price": 1648,
         "discountPersent": 75,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -503,8 +597,39 @@ export const mens_kurta=[
         "discountedPrice": 599,
         "price": 2499,
         "discountPersent": 76,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
+        "size": [
+            {
+              "name": "S",
+              "quantity": 20
+            },
+            {
+              "name": "M",
+              "quantity": 30
+            },
+            {
+              "name": "L",
+              "quantity": 50
+            }
+          ],
+          "quantity": 100,
+          "topLavelCategory": "Men",
+          "secondLavelCategory": "Clothing",
+          "thirdLavelCategory": "mens_kurta",
+          "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+    },
+    {
+      id:"18",
+        "imageUrl": "https://m.media-amazon.com/images/I/71i2eM+mlZL._AC_UL480_FMwebp_QL65_.jpg",
+        "brand": "Vida Loca",
+        "title": "Men Solid Pure Cotton Straight Kurta",
+        "color": "White",
+        "discountedPrice": 599,
+        "price": 2499,
+        "discountPersent": 76,
+        "ageFrom" : 28,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -534,8 +659,8 @@ export const mens_kurta=[
         "discountedPrice": 629,
         "price": 2499,
         "discountPersent": 74,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -565,8 +690,8 @@ export const mens_kurta=[
         "discountedPrice": 370,
         "price": 1499,
         "discountPersent": 75,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -596,8 +721,8 @@ export const mens_kurta=[
         "discountedPrice": 363,
         "price": 1499,
         "discountPersent": 75,
-        "ageFrom" : 31,
-        "ageTo":45, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -620,15 +745,15 @@ export const mens_kurta=[
     },
     {
       id:"21",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kxkqavk0/kurta/c/p/f/xxl-vlsd-a0lt-vida-loca-original-imagay8hjdc9cdzh.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61NajWdsBOL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Vida Loca",
         "title": "Men Self Design Pure Cotton Straight Kurta",
         "color": "Beige",
         "discountedPrice": 629,
         "price": 2499,
         "discountPersent": 74,
-        "ageFrom" : 31, "gender":"male",
-        "ageTo":45,
+        "ageFrom" : 27, "gender":"male",
+        "ageTo":31,
         "size": [
             {
               "name": "S",
@@ -651,7 +776,7 @@ export const mens_kurta=[
     },
     {
       id:"22",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/5/w/o/l-vlsd-a0lt-vida-loca-original-imagay8hg3nydjuh-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/51PCtZYaAAL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Vida Loca",
         "title": "Men Self Design Pure Cotton Straight Kurta",
         "color": "Light Blue",
@@ -682,15 +807,15 @@ export const mens_kurta=[
     },
     {
       id:"23",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/v/7/w/xl-sksh-dt1105-pur-fubar-original-imafuy3z57uqgdrp-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/61Zjr852N3L._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "FUBAR",
         "title": "Men Printed Cotton Blend Straight Kurta",
         "color": "Purple",
         "discountedPrice": 399,
         "price": 1648,
         "discountPersent": 75,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -713,15 +838,15 @@ export const mens_kurta=[
     },
     {
       id:"24",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/kfpq5jk0-0/kurta/e/g/i/m-kast109pp-majestic-man-original-imafw49u8vyzygpn.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/51BRcF8fs7L._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Majestic Man",
         "title": "Men Solid Pure Cotton Straight Kurta",
         "color": "Pink",
         "discountedPrice": 499,
         "price": 1499,
         "discountPersent": 66,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -744,15 +869,15 @@ export const mens_kurta=[
     },
     {
       id:"25",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/y/r/m/xxs-sada-plain-kurta-ksh-trendz-original-imag4baggdt7txju-bb.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/7199kIekhxL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "KSH Trendz",
         "title": "Men Solid Cotton Blend Straight Kurta",
         "color": "Yellow",
         "discountedPrice": 265,
         "price": 1499,
         "discountPersent": 82,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -775,15 +900,15 @@ export const mens_kurta=[
     },
     {
       id:"26",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/t/g/w/xxl-ae08sk42-blue-aew-designs-original-imagg8npatfky9wg.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/6191fQZv3GL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "ARMAAN ETHNIC",
         "title": "Men Self Design Cotton Blend Straight Kurta",
         "color": "Blue",
         "discountedPrice": 483,
         "price": 1999,
         "discountPersent": 75,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -813,8 +938,8 @@ export const mens_kurta=[
         "discountedPrice": 499,
         "price": 1499,
         "discountPersent": 66,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 23,
+        "ageTo":27, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -837,15 +962,15 @@ export const mens_kurta=[
     },
     {
       id:"28",
-        "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/e/o/4/m-kast-hukum-orange-majestic-man-original-imagzra2fzadkyrz.jpeg?q=70",
+        "imageUrl": "https://m.media-amazon.com/images/I/71Jwe2kb5pL._AC_UL480_FMwebp_QL65_.jpg",
         "brand": "Majestic Man",
         "title": "Men Printed Pure Cotton Straight Kurta",
         "color": "Orange",
         "discountedPrice": 499,
         "price": 1499,
         "discountPersent": 66,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",
@@ -875,8 +1000,8 @@ export const mens_kurta=[
         "discountedPrice": 399,
         "price": 1648,
         "discountPersent": 75,
-        "ageFrom" : 45, "gender":"male",
-        "ageTo":60,
+        "ageFrom" : 27, "gender":"male",
+        "ageTo":31,
         "size": [
             {
               "name": "S",
@@ -906,8 +1031,8 @@ export const mens_kurta=[
         "discountedPrice": 449,
         "price": 1749,
         "discountPersent": 74,
-        "ageFrom" : 45, "gender":"male",
-        "ageTo":60,
+        "ageFrom" : 27, "gender":"male",
+        "ageTo":31,
         "size": [
             {
               "name": "S",
@@ -961,6 +1086,37 @@ export const mens_kurta=[
     },
     {
       id:"32",
+        "imageUrl": "https://m.media-amazon.com/images/I/71cxUK+ZgWL._AC_UL480_FMwebp_QL65_.jpg",
+        "brand": "DEEMOON",
+        "title": "Men Floral Print Cotton Blend Straight shirt",
+        "color": "Dark Blue",
+        "discountedPrice": 468,
+        "price": 1599,
+        "discountPersent": 70,
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
+        "size": [
+            {
+              "name": "S",
+              "quantity": 20
+            },
+            {
+              "name": "M",
+              "quantity": 30
+            },
+            {
+              "name": "L",
+              "quantity": 50
+            }
+          ],
+          "quantity": 100,
+          "topLavelCategory": "Men",
+          "secondLavelCategory": "Clothing",
+          "thirdLavelCategory": "mens_kurta",
+          "description":"A traditional garment embodying elegance and grace. Crafted from fine fabrics, it features intricate embroidery and a relaxed fit, providing comfort and style."
+    },
+    {
+      id:"32",
         "imageUrl": "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/z/l/b/xl-grey-sws2902-allan-peter-original-imag3y6tzaaxwkhy-bb.jpeg?q=70",
         "brand": "allan peter",
         "title": "Men Printed Pure Cotton Straight Kurta",
@@ -968,8 +1124,8 @@ export const mens_kurta=[
         "discountedPrice": 499,
         "price": 1749,
         "discountPersent": 71,
-        "ageFrom" : 45,
-        "ageTo":60, "gender":"male",
+        "ageFrom" : 27,
+        "ageTo":31, "gender":"male",
         "size": [
             {
               "name": "S",

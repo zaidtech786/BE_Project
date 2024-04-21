@@ -9,6 +9,8 @@ export const dressPage1 = [
     "discountedPrice": 1299,
     "price": 2499,
     "discountPersent": 50,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -40,6 +42,8 @@ export const dressPage1 = [
     "discountedPrice": 341,
     "price": 1899,
     "discountPersent": 82,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -69,6 +73,8 @@ export const dressPage1 = [
     "color": "",
     "discountedPrice": 499,
     "price": 1999,
+    "ageFrom":30,
+    "ageTo":33,
     "discountPersent": 75,
     "size": [
       {
@@ -100,6 +106,8 @@ export const dressPage1 = [
     "discountedPrice": 359,
     "price": 2099,
     "discountPersent": 82,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -130,6 +138,8 @@ export const dressPage1 = [
     "color": "",
     "discountedPrice": 359,
     "price": 2099,
+    "ageFrom":30,
+    "ageTo":33,
     "discountPersent": 82,
     "size": [
       {
@@ -156,6 +166,8 @@ export const dressPage1 = [
     "imageUrl":
       "https://rukminim1.flixcart.com/image/612/612/kdlzte80/ethnic-set/p/f/q/l-3209-mint-02-neysa-original-imafuh85unfjczkd.jpeg?q=70",
     "brand": "NEYSA",
+    "ageFrom":30,
+    "ageTo":33,
     "title": "Women Two Piece Dress Light Green Dress",
     "color": "",
     "discountedPrice": 827,
@@ -191,6 +203,8 @@ export const dressPage1 = [
     "discountedPrice": 351,
     "price": 1599,
     "discountPersent": 78,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -221,6 +235,8 @@ export const dressPage1 = [
     "discountedPrice": 499,
     "price": 2497,
     "discountPersent": 80,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -251,6 +267,8 @@ export const dressPage1 = [
     "discountedPrice": 449,
     "price": 1499,
     "discountPersent": 70,
+    "ageFrom":30,
+    "ageTo":33,
     "size": [
       {
         "name": "S",
@@ -280,6 +298,8 @@ export const dressPage1 = [
     "color": "",
     "discountedPrice": 719,
     "price": 1999,
+    "ageFrom":30,
+    "ageTo":33,
     "discountPersent": 64,
     "size": [
       {
@@ -309,6 +329,8 @@ export const dressPage1 = [
     "title": "Women Maxi Grey Dress",
     "color": "",
     "discountedPrice": 349,
+    "ageFrom":30,
+    "ageTo":33,
     "price": 1999,
     "discountPersent": 65,
     "size": [
@@ -337,6 +359,8 @@ export const dressPage1 = [
       "https://rukminim1.flixcart.com/image/612/612/xif0q/kurta/b/5/w/xl-322k772-saara-original-imafz3xfdnekz6by-bb.jpeg?q=70",
     "brand": "Selvia",
     "title": "Women Asymmetric Black Dress",
+    "ageFrom":32,
+    "ageTo":35,
     "color": "",
     "discountedPrice": 299,
     "price": 1997,
@@ -371,6 +395,8 @@ export const dressPage1 = [
     "discountedPrice": 499,
     "price": 2330,
     "discountPersent": 78,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -401,6 +427,8 @@ export const dressPage1 = [
     "discountedPrice": 359,
     "price": 1799,
     "discountPersent": 80,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -429,6 +457,8 @@ export const dressPage1 = [
     "title": "Women Fit and Flare Black, Red Dress",
     "color": "",
     "discountedPrice": 474,
+    "ageFrom":32,
+    "ageTo":35,
     "price": 1289,
     "discountPersent": 47,
     "size": [
@@ -461,6 +491,8 @@ export const dressPage1 = [
     "discountedPrice": 827,
     "price": 2799,
     "discountPersent": 70,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -491,6 +523,8 @@ export const dressPage1 = [
     "discountedPrice": 351,
     "price": 2999,
     "discountPersent": 64,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -521,6 +555,8 @@ export const dressPage1 = [
     "discountedPrice": 359,
     "price": 1799,
     "discountPersent": 80,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -551,6 +587,8 @@ export const dressPage1 = [
     "discountedPrice": 449,
     "price": 1499,
     "discountPersent": 70,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -581,6 +619,8 @@ export const dressPage1 = [
     "discountedPrice": 959,
     "price": 1999,
     "discountPersent": 52,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -611,6 +651,8 @@ export const dressPage1 = [
     "discountedPrice": 499,
     "price": 1999,
     "discountPersent": 75,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -641,6 +683,8 @@ export const dressPage1 = [
     "discountedPrice": 371,
     "price": 2699,
     "discountPersent": 86,
+    "ageFrom":32,
+    "ageTo":35,
     "size": [
       {
         "name": "S",
@@ -671,6 +715,8 @@ export const dressPage1 = [
     "discountedPrice": 348,
     "price": 1999,
     "discountPersent": 82,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -700,6 +746,8 @@ export const dressPage1 = [
     "color": "",
     "discountedPrice": 495,
     "price": 1199,
+    "ageFrom":34,
+    "ageTo":37,
     "discountPersent": 58,
     "size": [
       {
@@ -730,6 +778,8 @@ export const dressPage1 = [
     "color": "",
     "discountedPrice": 2699,
     "price": 5999,
+    "ageFrom":34,
+    "ageTo":37,
     "discountPersent": 55,
     "size": [
       {
@@ -762,6 +812,8 @@ export const dressPage1 = [
     "discountedPrice": 439,
     "price": 1499,
     "discountPersent": 70,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -792,6 +844,8 @@ export const dressPage1 = [
     "discountedPrice": 299,
     "price": 1999,
     "discountPersent": 85,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -820,6 +874,8 @@ export const dressPage1 = [
     "title": "Women Fit and Flare Grey Dress",
     "color": "",
     "discountedPrice": 1599,
+    "ageFrom":34,
+    "ageTo":37,
     "price": 3999,
     "discountPersent": 60,
     "size": [
@@ -852,6 +908,8 @@ export const dressPage1 = [
     "discountedPrice": 1779,
     "price": 4999,
     "discountPersent": 64,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -882,6 +940,8 @@ export const dressPage1 = [
     "discountedPrice": 341,
     "price": 1899,
     "discountPersent": 82,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -912,6 +972,8 @@ export const dressPage1 = [
     "discountedPrice": 349,
     "price": 3999,
     "discountPersent": 65,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -942,6 +1004,8 @@ export const dressPage1 = [
     "discountedPrice": 899,
     "price": 2899,
     "discountPersent": 68,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -972,6 +1036,8 @@ export const dressPage1 = [
     "discountedPrice": 349,
     "price": 2063,
     "discountPersent": 83,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -1002,6 +1068,8 @@ export const dressPage1 = [
     "discountedPrice": 845,
     "price": 2798,
     "discountPersent": 69,
+    "ageFrom":34,
+    "ageTo":37,
     "size": [
       {
         "name": "S",
@@ -1032,6 +1100,8 @@ export const dressPage1 = [
     "discountedPrice": 1558,
     "price": 4599,
     "discountPersent": 65,
+    "ageFrom":36,
+    "ageTo":39,
     "size": [
       {
         "name": "S",
@@ -1062,6 +1132,8 @@ export const dressPage1 = [
     "discountedPrice": 351,
     "price": 4999,
     "discountPersent": 64,
+    "ageFrom":36,
+    "ageTo":39,
     "size": [
       {
         "name": "S",
@@ -1092,6 +1164,8 @@ export const dressPage1 = [
     "discountedPrice": 341,
     "price": 1899,
     "discountPersent": 82,
+    "ageFrom":36,
+    "ageTo":39,
     "size": [
       {
         "name": "S",

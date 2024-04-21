@@ -8,8 +8,8 @@
         "discountedPrice": 699,
         "price": 1999,
         "discountPersent": 65,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":15,
+        "ageTo":20,
         "size": [
             {
               "name": "S",
@@ -40,7 +40,7 @@
         "price": 1999,
         "discountPersent": 65,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -71,7 +71,7 @@
         "price": 1999,
         "discountPersent": 77,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -102,7 +102,7 @@
         "price": 1999,
         "discountPersent": 77,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -133,7 +133,7 @@
         "price": 1499,
         "discountPersent": 71,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -164,7 +164,7 @@
         "price": 2689,
         "discountPersent": 66,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -195,7 +195,7 @@
         "price": 2999,
         "discountPersent": 81,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -226,7 +226,7 @@
         "price": 1999,
         "discountPersent": 65,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -257,7 +257,7 @@
         "price": 1099,
         "discountPersent": 70,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -288,7 +288,7 @@
         "price": 1999,
         "discountPersent": 80,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -319,7 +319,7 @@
         "price": 1999,
         "discountPersent": 65,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -350,7 +350,7 @@
         "price": 1999,
         "discountPersent": 65,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -381,7 +381,7 @@
         "price": 1099,
         "discountPersent": 65,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -412,7 +412,7 @@
         "price": 1999,
         "discountPersent": 75,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -443,7 +443,7 @@
         "price": 1649,
         "discountPersent": 70,
         "ageFrom":19,
-        "ageTo":30,
+        "ageTo":22,
         "size": [
             {
               "name": "S",
@@ -473,8 +473,8 @@
         "discountedPrice": 672,
         "price": 2449,
         "discountPersent": 72,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -504,8 +504,8 @@
         "discountedPrice": 699,
         "price": 1999,
         "discountPersent": 65,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -535,8 +535,8 @@
         "discountedPrice": 678,
         "price": 3390,
         "discountPersent": 80,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -566,8 +566,8 @@
         "discountedPrice": 399,
         "price": 499,
         "discountPersent": 20,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -597,8 +597,8 @@
         "discountedPrice": 379,
         "price": 2199,
         "discountPersent": 82,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -628,8 +628,8 @@
         "discountedPrice": 594,
         "price": 1699,
         "discountPersent": 65,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -659,8 +659,8 @@
         "discountedPrice": 244,
         "price": 699,
         "discountPersent": 65,
-        "ageFrom":19,
-        "ageTo":30,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -690,8 +690,8 @@
         "discountedPrice": 666,
         "price": 2149,
         "discountPersent": 69,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -721,8 +721,8 @@
         "discountedPrice": 499,
         "price": 2599,
         "discountPersent": 80,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -752,8 +752,8 @@
         "discountedPrice": 549,
         "price": 2999,
         "discountPersent": 81,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -783,8 +783,8 @@
         "discountedPrice": 399,
         "price": 1599,
         "discountPersent": 75,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -814,8 +814,8 @@
         "discountedPrice": 895,
         "price": 2899,
         "discountPersent": 69,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -845,8 +845,8 @@
         "discountedPrice": 443,
         "price": 1149,
         "discountPersent": 61,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -876,8 +876,8 @@
         "discountedPrice": 389,
         "price": 999,
         "discountPersent": 61,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":21,
+        "ageTo":24,
         "size": [
             {
               "name": "S",
@@ -907,8 +907,8 @@
         "discountedPrice": 464,
         "price": 1549,
         "discountPersent": 70,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -938,8 +938,8 @@
         "discountedPrice": 449,
         "price": 999,
         "discountPersent": 55,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -969,8 +969,8 @@
         "discountedPrice": 374,
         "price": 1249,
         "discountPersent": 70,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1000,8 +1000,8 @@
         "discountedPrice": 366,
         "price": 1999,
         "discountPersent": 81,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1031,8 +1031,8 @@
         "discountedPrice": 479,
         "price": 2330,
         "discountPersent": 79,
-        "ageFrom":31,
-        "ageTo":40,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1062,8 +1062,8 @@
         "discountedPrice": 459,
         "price": 1997,
         "discountPersent": 77,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1093,8 +1093,8 @@
         "discountedPrice": 854,
         "price": 2499,
         "discountPersent": 65,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1124,8 +1124,8 @@
         "discountedPrice": 537,
         "price": 1299,
         "discountPersent": 58,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1155,8 +1155,8 @@
         "discountedPrice": 1299,
         "price": 5299,
         "discountPersent": 76,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1186,8 +1186,8 @@
         "discountedPrice": 794,
         "price": 1799,
         "discountPersent": 55,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",
@@ -1217,8 +1217,8 @@
         "discountedPrice": 669,
         "price": 1999,
         "discountPersent": 66,
-        "ageFrom":40,
-        "ageTo":50,
+        "ageFrom":23,
+        "ageTo":26,
         "size": [
             {
               "name": "S",

@@ -15,7 +15,14 @@ const FaceAnalysis = () => {
   const canvasRef = useRef(null); // Reference for the canvas
   const captureTimerRef = useRef(null); // Reference for the capture timer
   const [status,setStatus] = useState("")
-
+  const [shoulderWidth, setShoulderWidth] = useState(0);
+  const [waistCircumference, setWaistCircumference] = useState(0);
+  const [hipCircumference, setHipCircumference] = useState(0);
+  const videoRef = useRef(null);
+  // const canvasRef = useRef(null);
+  const pixelsToInches = (pixels, pixelDensity) => {
+    return pixels / pixelDensity;
+  };
   useEffect(() => {
     const loadModels = async () => {
       // Load face-api.js models
@@ -24,6 +31,8 @@ const FaceAnalysis = () => {
       await faceapi.nets.faceRecognitionNet.loadFromUri('/models/weights');
       await faceapi.nets.ageGenderNet.loadFromUri('/models/weights');
     };
+
+
 
     const initializeCamera = async () => {
       await loadModels();
@@ -41,6 +50,7 @@ const FaceAnalysis = () => {
     const detectFace = async () => {
       // Check if the video has finished loading
       if (video.readyState >= 3) {
+        const options = new faceapi.TinyFaceDetectorOptions({ inputSize: 512 });
         const faceDetection = await faceapi.detectSingleFace(video, new faceapi.TinyFaceDetectorOptions())
           .withFaceLandmarks()
           .withAgeAndGender();
@@ -49,10 +59,28 @@ const FaceAnalysis = () => {
           const gender = faceDetection.gender;
           const age = Math.round(faceDetection.age);
 
-          // console.log('Detected gender:', gender);
-          setSex(gender);
-          setAges(age);
+          const landmarks = faceDetection.landmarks;
+
+          // Example: Estimate shoulder width based on face landmarks
+          if (landmarks && landmarks.getLeftEye && landmarks.getRightEye && landmarks.getMouth) {
+          const leftEye = landmarks.getLeftEye();
+          const rightEye = landmarks.getRightEye();
+          const mouth = landmarks.getMouth();
+ 
+          console.log("shoulder : ", leftEye);
+          console.log("Waist:", rightEye);
+          // console.log(":", mouth);
+          console.log("Age:", age);
+          console.log("Gender:", gender);
+          const eyeDistance = Math.sqrt(Math.pow(leftEye._x - rightEye._x, 2) + Math.pow(leftEye._y - rightEye._y, 2));
+          const eyeMouthDistance = Math.abs(mouth._y - ((leftEye._y + rightEye._y) / 2));
+
+          // Estimate measurements
+   
         }
+        setSex(gender);
+        setAges(age);
+      }
       }
 
       // Request the next animation frame
@@ -61,6 +89,70 @@ const FaceAnalysis = () => {
 
     detectFace();
   };
+  
+
+  useEffect(() => {
+    const initTracker = (video) => {
+      const tracker = new clm.tracker();
+      tracker.init();
+      tracker.start(video);
+      return tracker;
+    };
+
+    const handleCanPlay = () => {
+      const video = videoRef.current;
+      video.play().then(() => {
+        const tracker = initTracker(video);
+        const canvas = canvasRef.current;
+        const context = canvas.getContext('2d');
+
+        const trackingLoop = setInterval(() => {
+          context.clearRect(0, 0, canvas.width, canvas.height);
+          if (tracker && tracker.getCurrentPosition()) {
+            const faceWidth = tracker.getCurrentPosition()[14][0] - tracker.getCurrentPosition()[0][0];
+            const faceHeight = tracker.getCurrentPosition()[7][1] - tracker.getCurrentPosition()[33][1];
+            setShoulderWidth(faceWidth * 1.5); // Assuming shoulder width is 1.5 times the face width
+            setWaistCircumference(faceHeight * 2); // Assuming waist circumference is twice the face height
+            setHipCircumference(faceHeight * 2); // Assuming hip circumference is also twice the face height
+          }
+        }, 100);
+
+        return () => {
+          clearInterval(trackingLoop);
+          if (video.srcObject) {
+            video.srcObject.getTracks().forEach(track => track.stop());
+          }
+          video.removeEventListener('canplay', handleCanPlay);
+          if (tracker) {
+            tracker.stop();
+          }
+        };
+      }).catch(error => console.error('Error playing video:', error));
+    };
+
+    const video = videoRef.current;
+    const canvas = canvasRef.current;
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => {
+        video.srcObject = stream;
+        video.addEventListener('canplay', handleCanPlay);
+      })
+      .catch(error => console.error('getUserMedia error:', error));
+  }, []);
+
+
+  useEffect(() => {
+    // Calculate and log measurements in inches whenever shoulderWidth, waistCircumference, or hipCircumference changes
+    const pixelDensity = videoRef.current?.videoWidth / videoRef.current?.offsetWidth;
+
+    console.log("Pixel density:", pixelDensity);
+    console.log("Shoulder Width :", pixelsToInches(shoulderWidth, pixelDensity).toFixed(2));
+    console.log("Waist Circumference :", pixelsToInches(waistCircumference, pixelDensity).toFixed(2));
+    console.log("Hip Circumference :", pixelsToInches(hipCircumference, pixelDensity).toFixed(2));
+  }, [shoulderWidth, waistCircumference, hipCircumference]);
+
+
 
   useEffect(() => {
     runFaceAnalysis();
@@ -70,80 +162,6 @@ const FaceAnalysis = () => {
     console.log("Ages:", ages, "Sex:", sex);
   }, [ages, sex]);
 
-
-
-
-
-  // const captureImage = () => {
-  //   const imageSrc = webcamRef.current?.getScreenshot();
-  //   if (imageSrc) {
-  //     setImageSrc(imageSrc);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const loadModels = async () => {
-  //     await faceapi.nets.tinyFaceDetector.loadFromUri('/models/weights');
-  //     await faceapi.nets.faceLandmark68Net.loadFromUri('/models/weights');
-  //     await faceapi.nets.faceRecognitionNet.loadFromUri('/models/weights');
-  //     await faceapi.nets.ageGenderNet.load('/models/weights');
-  //   };
-
-  //   const detectFaceAndDraw = async () => {
-  //     const video = webcamRef.current?.video;
-  //     if (!video) return;
-
-  //     const displaySize = { width: video.videoWidth, height: video.videoHeight };
-  //     const canvas = canvasRef.current;
-  //     if (!canvas) return;
-
-  //     faceapi.matchDimensions(canvas, displaySize);
-
-  //     const faceDetection = await faceapi.detectSingleFace(video, new faceapi.TinyFaceDetectorOptions())
-  //       .withFaceLandmarks()
-  //       .withAgeAndGender();
-
-  //     if (faceDetection) {
-  //       const gender = faceDetection.gender;
-  //       const age = Math.round(faceDetection.age);
-
-  //       console.log('Detected gender:', gender);
-  //       setSex(gender)
-  //       setAges(age)
-  //       console.log('Detected age:', age);
-
-  //       const resizedDetections = faceapi.resizeResults(faceDetection, displaySize);
-  //       faceapi.draw.drawFaceLandmarks(canvas, resizedDetections.landmarks);
-  //     }
-
-  //     requestAnimationFrame(detectFaceAndDraw);
-  //   };
-
-  //   const runFaceAnalysis = async () => {
-  //     await loadModels();
-
-  //     const video = webcamRef.current?.video;
-  //     if (!video) return;
-
-  //     await new Promise((resolve) => {
-  //       video.addEventListener('loadedmetadata', resolve);
-  //     });
-
-  //     detectFaceAndDraw();
-  //   };
-
-  //   runFaceAnalysis();
-
-  //   return () => {
-  //     clearTimeout(captureTimerRef.current); // Cleanup timer
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   if (seconds === 0 && webcamRef.current) {
-  //     captureImage(); // Capture image when countdown reaches 0
-  //   }
-  // }, [seconds]);
 
   useEffect(() => {
     // Countdown logic
@@ -161,22 +179,7 @@ const FaceAnalysis = () => {
     }
   }, [seconds]);
 
-  // useEffect(() => {
-  //   // Exit the effect if the countdown reaches 0
-  //   if (seconds === 0) {
-  //     return;
-  //   }
-
-  //   // Interval to decrease the countdown by 1 second every second
-  //   const intervalId = setInterval(() => {
-  //     setSeconds((prevSeconds) => prevSeconds - 1);
-  //   }, 1000);
-
-  //   // Cleanup the interval when the component is unmounted or countdown reaches 0
-  //   return () => clearInterval(intervalId);
-  // }, [seconds]); // Re-run the effect when 'seconds' changes
-
-
+  
   return (
     <div style={{ height: "100vh", display: "flex", justifyContent: "center", alignItems: "center", borderRadius: "5px" }}>
     
